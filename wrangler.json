@@ -1,0 +1,16 @@
+{
+  "compatibility_date": "2025-04-01",
+  "main": "src/index.ts",
+  "name": "cloudflare-severless",
+  "upload_source_maps": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "568dcb09-6333-4572-b66b-a0fd09775dd3",
+      "database_name": "OAuth-DB"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
